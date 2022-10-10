@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #D1BE9C;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    width: 360px;
+    height: 640px;
+
+    background: #D1BE9C;
+}
+
+.logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 290px;
+    top: 30px;
+}
+
+.container h3 {
+
+    position: absolute;
+    width: 276px;
+    height: 104px;
+    top: 268px;
+    left: 34px;
+    margin: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    /* or 100% */
+
+
+    color: #5A3F2B;
+
+    backdrop-filter: blur(4px);
+}
+
+.kotak {
+
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 240px;
+    top: 554px;
+
+    background: #5A3F2B;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.kotak p {
+    position: absolute;
+    width: 59px;
+    height: 21px;
+    margin: 0;
+    top: 7px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #F9EAE1;
+}
