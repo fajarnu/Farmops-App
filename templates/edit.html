@@ -15,50 +15,53 @@
             <p>PAKAN</p>
         </div>
 
-    <div class="pengaturan">
-        <h2>PENGATURAN PAKAN</h2>
-    </div>
-    
-        <a href="/suhu"><div class="suhu">
-            <p>SUHU</p>
-        </div></a>
-          
+        <div class="pengaturan">
+            <h2>PENGATURAN PAKAN</h2>
+        </div>
+
+        <a href="/suhu">
+            <div class="suhu">
+                <p>SUHU</p>
+            </div>
+        </a>
+
         <div class="boxLabel">
             <div>
-                 <div class="label">
-                    <p>Pakan 1</p>  
+                <div class="label">
+                    <p>Pakan 1</p>
                 </div>
-            </div>  
+            </div>
 
             <div>
                 <div class="label">
-                   <p>Pakan 2</p>  
-               </div>
-           </div>
+                    <p>Pakan 2</p>
+                </div>
+            </div>
 
-           <div>
-            <div class="label">
-               <p>Pakan 3</p>  
-           </div>
-       </div>
+            <div>
+                <div class="label">
+                    <p>Pakan 3</p>
+                </div>
+            </div>
 
         </div>
-        <div > <form method="post">
-            <div class="boxInput">
-                <div><input class="input" type="time" name="jamPakan" value={{jamPakan}} /> </div>
-                <div><input class="input" type="time" name="jamPakan2" value={{jamPakan2}} /></div>
-                <div><input class="input" type="time" name="jamPakan3" value={{jamPakan3}} /></div>
-            </div> 
-            <input class="submit" type="submit" value="OK"> </input>
-        </form>
+        <div>
+            <form method="post">
+                <div class="boxInput">
+                    <div><input class="input" type="time" name="jamPakan" value={{jamPakan}} /> </div>
+                    <div><input class="input" type="time" name="jamPakan2" value={{jamPakan2}} /></div>
+                    <div><input class="input" type="time" name="jamPakan3" value={{jamPakan3}} /></div>
+                </div>
+                <input class="submit" type="submit" value="OK"> </input>
+            </form>
         </div>
 
         <div>
-            <img class="logo" src="{{ url_for('static',filename='img/logo.svg')}}" id="logo" width="80px"/>
+            <img class="logo" src="{{ url_for('static',filename='img/logo.svg')}}" id="logo" width="80px" />
         </div>
-        <div id="tambah"> 
+        <div id="tambah">
             <img src="{{ url_for('static',filename='img/plus.svg')}}" />
-        </div>  
+        </div>
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
@@ -69,7 +72,7 @@
                     <img src={{ url_for('static',filename='img/toggle.svg')}}>
                 </label><br>
                 <li>
-                    <a href="/">Informasi</a>
+                    <a href="/index">Informasi</a>
                 </li>
                 <li><a href="/laporan">Laporan</a></li>
             </ul>
